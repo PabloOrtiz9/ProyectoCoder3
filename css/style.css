@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,500;1,600;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background: linear-gradient(349deg, rgb(22, 10, 13) 18%, rgb(158, 70, 252) 100%);
+  border-bottom: solid 2px black;
+}
+
+/*# sourceMappingURL=style.css.map */
