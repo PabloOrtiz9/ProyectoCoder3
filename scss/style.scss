@@ -1,3 +1,10 @@
-@import "base/estilosGenerales.scss";
+@import 'base/estilosGenerales.scss';
 
-@import "components/header.scss"
+@import 'components/header.scss';
+
+@import 'components/index';
+@import 'components/equipos.scss';
+@import 'components/listadeprecios.scss';
+@import 'components/preguntasfrecuentes.scss';
+@import 'components/contacto.scss';
+@import 'components/footer';
