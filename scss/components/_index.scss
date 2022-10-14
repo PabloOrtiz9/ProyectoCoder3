@@ -1,20 +1,27 @@
-main {
-    section {
-        div {
-            height: 0 auto;
+main{
+    div{
+        h2{
+            color: rgb(24, 22, 22);
+            font-weight:900;
+            font-family: kanit;
+            font-size: 30px;
+            
+        }
+        div{
+            h3{
+                font-family: kanit;
+                font-weight: 500;
 
-            div {
-                p {
-                    font-family: kanit;
-                    font-size: 25px;
-                    text-shadow: -8px 1px 9px rgba(0, 0, 0, 0.6);
-
-                }
             }
-
-            .carousel-dias {
-                width: 350px;
-
+            p{
+                font-family: kanit;
+                font-weight: 400;
+                color: rgb(72,11,152);
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
             }
         }
     }

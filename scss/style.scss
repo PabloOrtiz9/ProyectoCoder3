@@ -3,8 +3,16 @@
 @import 'components/header.scss';
 
 @import 'components/index';
-@import 'components/equipos.scss';
-@import 'components/listadeprecios.scss';
-@import 'components/preguntasfrecuentes.scss';
-@import 'components/contacto.scss';
-@import 'components/footer';
+@import 'components/equipos';
+@import 'components/listadeprecios';
+@import 'components/preguntasfrecuentes';
+@import 'components/contacto';
+@import 'components/footer.scss';
+    /*equipos*/
+@import 'components/productos/camara.scss';
+@import 'components/productos/lentes';
+@import 'components/productos/estabilizadorestripodes';
+@import 'components/productos/grips';
+@import 'components/productos/iluminacion';
+@import 'components/productos/sonido';
+@import 'components/productos/otros';
