@@ -7,12 +7,12 @@
 @import 'components/listadeprecios';
 @import 'components/preguntasfrecuentes';
 @import 'components/contacto';
-@import 'components/footer.scss';
+@import 'components/footer';
     /*equipos*/
-@import 'components/productos/camara.scss';
-@import 'components/productos/lentes';
-@import 'components/productos/estabilizadorestripodes';
-@import 'components/productos/grips';
-@import 'components/productos/iluminacion';
-@import 'components/productos/sonido';
-@import 'components/productos/otros';
+@import 'components/camara';
+@import 'components/lentes';
+@import 'components/estabilizadorestripodes';
+@import 'components/grips';
+@import 'components/iluminacion';
+@import 'components/sonido';
+@import 'components/otros';

@@ -45,24 +45,31 @@ main div div a {
   font-weight: 600;
 }
 
-footer .footer-container {
+footer nav {
   padding: 20px 0px;
   padding: 20px;
   height: auto;
+  background: rgb(72, 11, 152);
+  background: linear-gradient(184deg, rgb(72, 11, 152) 18%, rgb(158, 70, 252) 100%);
 }
-footer .footer-container div a .logo-photo {
+footer nav div a img {
   width: 165px;
   height: 140px;
   overflow: hidden;
   padding-right: 20px;
 }
-footer .footer-container div .menu {
-  color: rgb(24, 22, 22);
-  font-weight: 500;
+footer nav div h5 {
   font-family: kanit;
-  font-weight: 800;
-  font-size: 22px;
+  font-weight: 600;
+  color: black;
 }
+footer nav div ul li {
+  font-family: kanit;
+  color: wheat;
+  text-shadow: deeppink;
+  font-size: 20px;
+}
+
 /*equipos*/
 
 /*# sourceMappingURL=style.css.map */

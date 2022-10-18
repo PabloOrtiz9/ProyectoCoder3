@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Septimo Ojo</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/logos/favicon-32x32.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -15,79 +16,96 @@
     <link rel="stylesheet" href="../Css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../imagenes/CR-LOGO-1.png" class="logo-photo" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">
-                        Inicio
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./equipos.html">
-                        Equipos
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./listadeprecios.html">
-                      Lista de precios
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="./preguntasfrecuentes.html">
-                        Preguntas frecuentes
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="./contacto.html">
-                        Contacto
-                    </a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit" style="color: white; background-color: black; border: white;">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <footer>
-      <nav class=" container-fluid footer-container"
-          style="background: rgb(72,11,152); background: linear-gradient(184deg, rgba(72,11,152,1) 18%, rgba(158,70,252,1) 100%); border-top: solid 2px black; ">
-          <div class="row">
-              <a href="index.html" class="col-lg-3 col-md-6 col-6 text-uppercase d-flex align-item-center">
-                  <img src="../imagenes/CR-LOGO-1.png" class="logo-photo animate__animated animate__tada"
-                      alt="img-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../imagenes/logos/CR-LOGO-1.png"
+            class="logo-photo animate__animated animate__tada" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">
+                Inicio
               </a>
-              <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
-                  <li class="font-weight-bold text-uppercase" style="color: black;"> Festival</li>
-                  <li class="menu-list text-reset">Tickets</li>
-                  <li class="menu-list text-reset">Sponsors</li>
-                  <li class="menu-list text-reset">Merch</li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../html/camaras.html">Cámaras</a></li>
+                <li><a class="dropdown-item" href="../html/lentes.html">Lentes</a></li>
+                <li><a class="dropdown-item" href="../html/estabilizadorestripodes.html">Estabilizadores -
+                    Tripodes</li>
+                <li><a class="dropdown-item" href="../html/iluminacion.html">Iluminación</a></li>
+                <li><a class="dropdown-item" href="../html/grips.html">Grips</a></li>
+                <li><a class="dropdown-item" href="../html/sonido.html">Sonido</a></li>
+                <li><a class="dropdown-item" href="../html/otros.html">Otros</a></li>
               </ul>
-              <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
-                  <li class="font-weight-bold text-uppercase" style="color: black;"> Contacto</li>
-                  <li class="menu-list text-reset">Contacto</li>
-                  <li class="menu-list text-reset">Información</li>
-                  <li class="menu-list text-reset">Prensa</li>
-              </ul>
-              <ul class="col-lg-3 col-md-6 col-6 list-unstyled menu">
-                  <li class="font-weight-bold text-uppercase" style="color: black;"> Social</li>
-                  <li class="iconos"><i class="fa-brands fa-square-instagram menu-list"></i></li>
-                  <li class="iconos"><i class="fa-brands fa-square-twitter menu-list"></i></li>
-                  <li class="iconos"><i class="fa-brands fa-youtube menu-list"></i></li>
-              </ul>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/listadeprecios.html">
+                Lista de precios
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../html/preguntasfrecuentes.html">
+                Preguntas frecuentes
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../html/contacto.html">
+                Contacto
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"
+              style="color: white; background-color: black; border: white;">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-      </nav>
+  <footer class="container-fluid">
+    <nav class="row">
+      <div class="col-12 col-md">
+        <a href="index.html" class="col-lg-3 col-md-6 col-6">
+          <img src="../imagenes/logos/CR-LOGO-1.png" class="logo-photo animate__animated animate__tada" alt="">
+        </a>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Contacto</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">SeptimoOjo7@gcoderhouse.com</a></li>
+          <li><a class="link-secondary" href="#">AV. Santa Fe XXXX</a></li>
+          <li><a class="link-secondary" href="#">Lunes a Viernes de 09:00 a 17:00</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Alquileres</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Lista de precios</a></li>
+          <li><a class="link-secondary" href="#">Condiciones</a></li>
+          <li><a class="link-secondary" href="#">Preguntas Frecuentes</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Social</h5>
+        <ul class="list-unstyled text-small">
+          <li class="link-secondary"><i class="fa-brands fa-square-instagram menu-list"></i></li>
+          <li class="link-secondary"><i class="fa-brands fa-square-twitter menu-list"></i></li>
+          <li class="link-secondary"><i class="fa-brands fa-youtube menu-list"></i></li>
+        </ul>
+      </div>
+    </nav>
   </footer>
 
 

@@ -1,25 +1,32 @@
 footer{
-    .footer-container{
+    
+    nav{
         padding: 20px 0px;
         padding: 20px;
         height: auto;
+        background: rgb(72,11,152); background: linear-gradient(184deg, rgba(72,11,152,1) 18%, rgba(158,70,252,1) 100%);
         div{
             a{
-                .logo-photo{
+                img{
                     width: 165px;
                     height: 140px;
                     overflow: hidden;
                     padding-right: 20px;
                 }
             }
-            .menu{ 
-                color: rgb(24, 22, 22);
-                font-weight: 500;
+        }
+        div{
+            h5{
                 font-family: kanit;
-                font-weight: 800;
-                font-size: 22px;
+                font-weight: 600;
+                color: black;
+            }
+            ul{
                 li{
-
+                    font-family: kanit;
+                    color: wheat;
+                    text-shadow: deeppink;
+                    font-size: 20px;
                 }
             }
         }
